@@ -1,0 +1,5 @@
+compile:
+nasm -f bin boot.bin boot.asm
+
+run:
+qemu-system-x86_64 boot.bin
